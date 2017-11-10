@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/wb_orange</item>
+        <item name="colorPrimaryDark">@color/wb_dark_orange</item>
+        <item name="colorAccent">@color/wb_orange</item>
+        <item name="colorButtonNormal">@color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <!--<item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>-->
+        <!--<item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>-->
+    </style>
+
+    <style name="AppTheme.Main">
+        <item name="android:windowTranslucentStatus">false</item>
+        <!--<item name="android:windowTranslucentNavigation">true</item>-->
+    </style>
+  
+    <style name="AlertDialogTheme" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/wb_orange</item>
+        <item name="colorPrimaryDark">@color/wb_dark_orange</item>
+        <item name="colorAccent">@color/wb_orange</item>
+    </style>
+
+  <style name="ProgressDialogTheme" parent="@style/Theme.AppCompat.Light.Dialog.Alert">
+    <item name="colorPrimary">@color/wb_orange</item>
+    <item name="colorPrimaryDark">@color/wb_dark_orange</item>
+    <item name="colorAccent">@color/wb_orange</item>
+    <item name="android:windowBackground">@color/transparent</item>
+  </style>
+</resources>
